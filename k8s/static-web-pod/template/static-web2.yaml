@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: static-web2
+  name: static-web2
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: static-web2
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: static-web2
+    spec:
+      volumes:
+      - name: static-web3
+        hostPath:
+          path: /home/thai/hostweb/html
+      containers:
+      - image: nginx
+        name: nginx
+        resources: {}
+        volumeMounts:
+        - name: static-web3
+          mountPath: /usr/share/nginx/html
+status: {}
