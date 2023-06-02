@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: obo-web-configmap
+data:
+  DB_HOST: "103.110.85.124"
+  DB_PORT: "3306"
+  DB_NAME: "obo"
+  DB_USER: "root"
+  DB_PASSWORD: "minhthai@@"
