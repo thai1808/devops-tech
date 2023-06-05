@@ -47,9 +47,9 @@ metadata:
 data:
   DB_HOST: "103.110.85.124"
   DB_PORT: "3306"
-  DB_NAME: "obo"
+  DB_NAME: "oboo"
   DB_USER: "root"
-  DB_PASSWORD: "minhthai@@"
+  DB_PASSWORD: "*******"
 ```
 
 Tạo deployment với image vừa push lên Docker Hub
