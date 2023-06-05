@@ -78,7 +78,7 @@ data:
   DB_PORT: "3306"
   DB_NAME: "obo"
   DB_USER: "root"
-  DB_PASSWORD: "minhthai@@"
+  DB_PASSWORD: "******"
 ```
 
 Tạo deployment với image vừa push lên Docker Hub
